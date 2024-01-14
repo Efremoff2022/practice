@@ -7,10 +7,6 @@
     <title>Document</title>
 </head>
 <style>
-    .form {
-        margin-bottom: 20px;
-    }
-
     .result {
         margin-top: 30px;
         font-family: Arial, Helvetica, sans-serif;
@@ -20,12 +16,9 @@
 
 <body>
 <!-- Создайте простую HTML-форму, которая принимает имя пользователя и отображает его с помощью оператора PHP echo -->
-<form action="" method="get">
-    <div class="form">
-        <label for="yourvalue">Введите имя:</label>
-        <input type="text" placeholder="Введите имя" name="yourvalue" id="yourvalue">
-    </div>
-        
+<form action="" method="get">    
+    <label for="yourvalue">Введите имя:</label>
+    <input type="text" placeholder="Введите имя" name="yourvalue" id="yourvalue"><br><br>
     <input type="submit" value="Показать результат">
 </form>
 
