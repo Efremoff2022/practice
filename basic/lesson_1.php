@@ -4,5 +4,5 @@
 
 echo "Hello World!"; // 1й вариант (вывод с помощью echo)
 echo "<br>";
-print("Hello World!"); // 2й вариант (вывод с помощью print())
+print("Hello World!!"); // 2й вариант (вывод с помощью print())
 ?>
