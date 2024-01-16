@@ -33,5 +33,28 @@ echo "<br>";
 
 $foodId = [3, 1, 0, 2];
 echo "Вывод значения в массиве: ";
-echo $food['Молоко'][$foodId[0]]; // вывод
-?>
+echo $food['Молоко'][$foodId[0]];
+
+echo "<br>";
+echo "<br>";
+
+echo "Вывод значения в массиве: ";
+echo $food['Напитки'][$foodId[3]];
+
+$arr = [
+    'вольво',
+    'ауди',
+    'bmw',
+    'VW',
+    'KIA',
+    'Ford'
+];
+
+echo "<br>";
+echo "<br>";
+
+$arrAutoId = [5, 2, 4, 1, 3, 0];
+
+echo $arr[$arrAutoId[2]]." и ". $arr[$arrAutoId[5]];
+
+
